@@ -4,13 +4,6 @@ import Card from "./components/Card";
 import { Product } from "./types";
 import { PRODS } from "./products";
 
-/**
- * for validation:
- * @link https://github.com/colinhacks/zod
- * for Unstyled components:
- * @link https://www.radix-ui.com/
- * TODO: on prod use cloudinary or similar service to optimize the assets
- */
 
 async function fetchProduct() {
   //? JUST TO TEST DEPLOYMENT WITHOUT CHANGING ALOT
