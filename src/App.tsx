@@ -27,7 +27,6 @@ function App() {
   const [products, setProducts] = useState<Product[] | undefined>();
 
   useEffect(() => {
-    //TODO: handle error with try catch
     fetchProduct()
       .then((products) => {
         setProducts(products);
