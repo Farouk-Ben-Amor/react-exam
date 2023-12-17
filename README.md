@@ -1,5 +1,7 @@
 # Intro
 
+I implemented the features outlined in the task description and ensured that the application follows the provided Figma mockups on both desktop and mobile views. more details are in the codebase.
+
 ## Assignment
 
 - ✅ Modern react utilities
@@ -16,8 +18,6 @@
 - I added a loading state
 - I used SVG Icons for the input areas (arrows, dollar sign)
 - I deployed the app to Vercel (PaaS)
-
-### Conclusion
 
 ### Notes
 
