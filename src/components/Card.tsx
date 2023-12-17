@@ -98,10 +98,8 @@ function Card() {
                 max={parseFloat(currentProduct.max_amount)}
                 value={loanAmount}
                 onChange={(e) => {
-                  /* 
-                  Validation should be either onSubmit using something
-                  like zod or yup or by displaying an error message under the input
-                  */
+                   
+                /*Validation should be either onSubmit using something like zod */
 
                   const newLoanAmount = parseFloat(e.target.value);
 
@@ -109,6 +107,10 @@ function Card() {
                   const min = parseFloat(currentProduct.min_amount);
 
                   setLoanAmount(() => {
+                    /* i could write it like that so it not take values less than the min amount,
+                    but it will prevent me from entering any value ,
+                    just choosing values with keyboard arrows :
+                    if (isNaN(newLoanAmount) || newLoanAmount < min) {*/
                     if (isNaN(newLoanAmount)) {
                       return min;
                     }

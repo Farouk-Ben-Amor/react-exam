@@ -5,7 +5,7 @@ I implemented the features outlined in the task description and ensured that the
 ## Assignment
 
 - ✅ Modern react utilities
-- ✅ Responsive Layout
+- ✅ Responsive Layout (Desktop & Mobile)
 - ✅ Formatting & Linting
 - ✅ Typechecking & Typesafety
 - ✅ Git flow and static Deployment
@@ -16,9 +16,9 @@ I implemented the features outlined in the task description and ensured that the
 - I used context to avoid prop drilling
 - I added an interface for the Products JSON for typesafety
 - I added a loading state
-- I used SVG Icons for the input areas (arrows, dollar sign)
+- I used SVG Icons for the input areas (arrows, dollar sign) from Fontawesome website
 - I deployed the app to Vercel (PaaS)
 
 ### Notes
 
-> The Dockerfile uses the latest node version (20.x) but the project depends on Node 16, that's why instead of using Docker Compose, I recreated the project from scratch using vite (instead of webpack) to use the latest React and Node version
+> The Dockerfile uses the latest node version (20.x) but the project depends on Node 16, that's why instead of using Docker Compose, I recreated the project from scratch using vite (instead of webpack) to use the latest React and Node version.

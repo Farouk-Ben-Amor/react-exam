@@ -6,7 +6,7 @@ import { PRODS } from "./products";
 
 
 async function fetchProduct() {
-  //? JUST TO TEST DEPLOYMENT WITHOUT CHANGING ALOT
+  // JUST TO TEST DEPLOYMENT WITHOUT CHANGING A LOT ()
   if (import.meta.env.VITE_NODE_ENV === "production") {
     return PRODS;
   }
